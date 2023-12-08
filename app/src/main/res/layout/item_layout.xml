@@ -1,0 +1,262 @@
+<!-- res/layout/item_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Item 1 -->
+    <TextView
+        android:id="@+id/itemText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 1"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 1 -->
+    <TextView
+        android:id="@+id/subItemText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 1" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- Item 2 -->
+    <TextView
+        android:id="@+id/itemText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 2"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 2 -->
+    <TextView
+        android:id="@+id/subItemText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 2" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- Item 3 -->
+    <TextView
+        android:id="@+id/itemText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 3"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 3 -->
+    <TextView
+        android:id="@+id/subItemText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 3" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <!-- Item 4 -->
+    <TextView
+        android:id="@+id/itemText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 4"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 4 -->
+    <TextView
+        android:id="@+id/subItemText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 4" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <!-- Item 5 -->
+    <TextView
+        android:id="@+id/itemText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 5"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 5 -->
+    <TextView
+        android:id="@+id/subItemText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 5" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <!-- Item 6 -->
+    <TextView
+        android:id="@+id/itemText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 6"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 6 -->
+    <TextView
+        android:id="@+id/subItemText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 6" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <!-- Item 7 -->
+    <TextView
+        android:id="@+id/itemText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 7"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 7 -->
+    <TextView
+        android:id="@+id/subItemText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 7" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <!-- Item 8 -->
+    <TextView
+        android:id="@+id/itemText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 8"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 8 -->
+    <TextView
+        android:id="@+id/subItemText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 8" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <!-- Item 9 -->
+    <TextView
+        android:id="@+id/itemText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 9"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 9 -->
+    <TextView
+        android:id="@+id/subItemText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 9" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <!-- Item 10 -->
+    <TextView
+        android:id="@+id/itemText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 10"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 10 -->
+    <TextView
+        android:id="@+id/subItemText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 10" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <!-- Item 11 -->
+    <TextView
+        android:id="@+id/itemText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 11"
+        android:textStyle="bold" />
+
+    <!-- Sub-item 11 -->
+    <TextView
+        android:id="@+id/subItemText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-item 11" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- "Type here" EditText -->
+    <EditText
+        android:id="@+id/editTextTypeHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type here"
+        android:inputType="text" />
+
+    <!-- Line space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- "Send" and "Receive" TextButtons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sendButton"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send" />
+
+        <!-- Horizontal space between buttons -->
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="1dp" />
+
+        <Button
+            android:id="@+id/receiveButton"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Receive" />
+    </LinearLayout>
+</LinearLayout>
+

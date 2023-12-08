@@ -1,0 +1,54 @@
+<!-- res/layout/activity_chat_room.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ListView for displaying chat messages -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:padding="16dp"
+        android:background="#FFFFFF"/>
+
+    <!-- "Type here" EditText -->
+    <EditText
+        android:id="@+id/editTextTypeHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listView"/>
+
+    <!-- "Send" and "Receive" Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/editTextTypeHere"> <!-- Adjust the layout_below attribute based on your design -->
+
+        <Button
+            android:id="@+id/sendButton"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send" />
+
+        <!-- Horizontal space between buttons -->
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="1dp" />
+
+        <Button
+            android:id="@+id/receiveButton"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Receive" />
+    </LinearLayout>
+
+    <!-- Feel free to add more components like buttons, EditText, etc. -->
+
+</RelativeLayout>

@@ -66,4 +66,14 @@
         android:text="Click the button above to take a picture"
         android:layout_below="@id/imageButton"
         android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnGoToChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewClick"
+        android:layout_marginTop="28dp"
+        android:onClick="goToChat"
+        android:text="Go to chat"
+        android:background="#FF0000" />
 </RelativeLayout>

@@ -1,18 +1,20 @@
 package com.cst2335.profileactivity;
 
+
+
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -63,35 +65,24 @@ public class MainActivity extends AppCompatActivity {
 
         TextView clickText = findViewById(R.id.textViewClick);
         clickText.setText(R.string.click_button_to_take_picture);
+
+        // Set up button for going to ChatRoomActivity
+        Button btnGoToChat = findViewById(R.id.btnGoToChat);
+        btnGoToChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToChat(view);
+            }
+        });
     }
 
-    @Override
-    protected void onStart() {
-        Log.e(TAG, "In function: onStart");
-        super.onStart();
-    }
+    // ImageButton click listener to launch the camera
+    // ActivityResultLauncher for handling the camera result
+    // Other lifecycle methods...
 
-    @Override
-    protected void onResume() {
-        Log.e(TAG, "In function: onResume");
-        super.onResume();
-    }
-
-    @Override
-    protected void onPause() {
-        Log.e(TAG, "In function: onPause");
-        super.onPause();
-    }
-
-    @Override
-    protected void onStop() {
-        Log.e(TAG, "In function: onStop");
-        super.onStop();
-    }
-
-    @Override
-    protected void onDestroy() {
-        Log.e(TAG, "In function: onDestroy");
-        super.onDestroy();
+    // New method for launching ChatRoomActivity
+    public void goToChat(View view) {
+        Intent intent = new Intent(MainActivity.this, com.cst2335.profileactivity.ChatRoomActivity.class);
+        startActivity(intent);
     }
 }

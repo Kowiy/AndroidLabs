@@ -23,6 +23,11 @@
             </intent-filter>
         </activity>
 
+        <!-- ChatRoomActivity -->
+        <activity
+            android:name=".ChatRoomActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>
